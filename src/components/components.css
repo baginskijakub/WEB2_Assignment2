@@ -1,0 +1,109 @@
+.text-transparent{
+    opacity: 0.9;
+    margin: 0;
+}
+.pokemon-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    background-color: #F9F9F9;
+    border: 1px solid #C1C1C1;
+    width: calc(25% - 44px);
+    border-radius: 12px;
+    padding: 12px;
+    color: #1A1A1A;
+    height: 200px;
+    transition: all ease-in-out 1s;
+}
+
+.pokemon-container img{
+    width: 200px;
+    height: 200px;
+}
+
+.pokemon-container-inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+.pokemons-list-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    margin: 40px 0;
+}
+
+.pokemons-list-wrapper{
+    margin: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.pokemon-details{
+    display: none;
+    height: 0;
+
+}
+
+.pokemon-container:hover .pokemon-details{
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.pagination-container{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination-button{
+    width: 32px;
+    height: 32px;
+    padding: 12px;
+    border-radius: 100px;
+    outline: none;
+    border: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3E7FFF;
+    transition: all ease-in-out 0.1s;
+    font-size: 16px;
+}
+
+.pagination-button:hover{
+
+    background-color: #598FFA;
+}
+
+.navbar-wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #CCCCCC;
+    backdrop-filter: blur(5px);
+    background: rgba(238, 238, 238, 0.9);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #1A1A1A;
+    margin: 12px;
+}
