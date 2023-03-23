@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "'https://baginskijakub.github.io/WEB2_Assignment2/' # or whatever your public url is/static/css/main.7d3c446f.css",
-    "main.js": "'https://baginskijakub.github.io/WEB2_Assignment2/' # or whatever your public url is/static/js/main.c18c00b3.js",
-    "index.html": "'https://baginskijakub.github.io/WEB2_Assignment2/' # or whatever your public url is/index.html",
-    "main.7d3c446f.css.map": "'https://baginskijakub.github.io/WEB2_Assignment2/' # or whatever your public url is/static/css/main.7d3c446f.css.map",
-    "main.c18c00b3.js.map": "'https://baginskijakub.github.io/WEB2_Assignment2/' # or whatever your public url is/static/js/main.c18c00b3.js.map"
+    "main.css": "/WEB2_Assignment2/static/css/main.7d3c446f.css",
+    "main.js": "/WEB2_Assignment2/static/js/main.52691a72.js",
+    "index.html": "/WEB2_Assignment2/index.html",
+    "main.7d3c446f.css.map": "/WEB2_Assignment2/static/css/main.7d3c446f.css.map",
+    "main.52691a72.js.map": "/WEB2_Assignment2/static/js/main.52691a72.js.map"
   },
   "entrypoints": [
     "static/css/main.7d3c446f.css",
-    "static/js/main.c18c00b3.js"
+    "static/js/main.52691a72.js"
   ]
 }
